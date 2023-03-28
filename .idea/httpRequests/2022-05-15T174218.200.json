@@ -1,0 +1,148 @@
+{
+  "matches": [
+    {
+      "id": 1,
+      "date": "2022-07-04T00:00:00",
+      "price": 0.99,
+      "local": {
+        "id": 1,
+        "name": "equipT2",
+        "country": "Peru"
+      },
+      "visitor": {
+        "id": 2,
+        "name": "equip2",
+        "country": "Peru"
+      },
+      "competition": "Competi6",
+      "total_available_tickets": 0,
+      "competition_id": 1
+    },
+    {
+      "id": 2,
+      "date": "2022-07-04T00:00:00",
+      "price": 0.99,
+      "local": {
+        "id": 3,
+        "name": "equip3",
+        "country": "Peru"
+      },
+      "visitor": {
+        "id": 4,
+        "name": "equip4",
+        "country": "Peru"
+      },
+      "competition": "Not in a competition",
+      "total_available_tickets": 5,
+      "competition_id": null
+    },
+    {
+      "id": 3,
+      "date": "2022-07-05T00:00:00",
+      "price": 0.99,
+      "local": {
+        "id": 1,
+        "name": "equipT2",
+        "country": "Peru"
+      },
+      "visitor": {
+        "id": 2,
+        "name": "equip2",
+        "country": "Peru"
+      },
+      "competition": "Not in a competition",
+      "total_available_tickets": 5,
+      "competition_id": null
+    },
+    {
+      "id": 4,
+      "date": "2022-07-05T00:00:00",
+      "price": 0.99,
+      "local": {
+        "id": 2,
+        "name": "equip2",
+        "country": "Peru"
+      },
+      "visitor": {
+        "id": 1,
+        "name": "equipT2",
+        "country": "Peru"
+      },
+      "competition": "Competi6",
+      "total_available_tickets": 1,
+      "competition_id": 1
+    },
+    {
+      "id": 5,
+      "date": "2022-07-05T00:00:00",
+      "price": 0.99,
+      "local": {
+        "id": 5,
+        "name": "equip5",
+        "country": "Peru"
+      },
+      "visitor": {
+        "id": 6,
+        "name": "equip6",
+        "country": "Peru"
+      },
+      "competition": "Competi6",
+      "total_available_tickets": 5,
+      "competition_id": 1
+    },
+    {
+      "id": 6,
+      "date": "2022-07-05T00:00:00",
+      "price": 20.0,
+      "local": {
+        "id": 6,
+        "name": "equip6",
+        "country": "Peru"
+      },
+      "visitor": {
+        "id": 7,
+        "name": "equip7",
+        "country": "Peru"
+      },
+      "competition": "Competi6",
+      "total_available_tickets": 500,
+      "competition_id": 1
+    },
+    {
+      "id": 7,
+      "date": "2022-07-05T00:00:00",
+      "price": 20.0,
+      "local": {
+        "id": 7,
+        "name": "equip7",
+        "country": "Peru"
+      },
+      "visitor": {
+        "id": 8,
+        "name": "equip8",
+        "country": "Peru"
+      },
+      "competition": "Competi6",
+      "total_available_tickets": 10,
+      "competition_id": 1
+    },
+    {
+      "id": 8,
+      "date": "2022-07-05T00:00:00",
+      "price": 5.0,
+      "local": {
+        "id": 8,
+        "name": "equip8",
+        "country": "Peru"
+      },
+      "visitor": {
+        "id": 5,
+        "name": "equip5",
+        "country": "Peru"
+      },
+      "competition": "Competi6",
+      "total_available_tickets": 5,
+      "competition_id": 1
+    }
+  ]
+}

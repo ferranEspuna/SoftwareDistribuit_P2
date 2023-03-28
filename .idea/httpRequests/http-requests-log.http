@@ -1,0 +1,669 @@
+POST http://localhost:5000/competition/
+Content-Type: application/json
+
+{
+  "name": "Juegos del hambre",
+  "category": "Senior",
+  "sport": "Football",
+  "teams": [7,8,9],
+  "matches": [16,17]
+}
+
+<> 2022-05-20T194636.201.json
+
+###
+
+PUT http://localhost:5000/competition/2
+Content-Type: application/json
+
+{
+  "name": "Prueba2",
+  "category": "Senior",
+  "sport": "Football",
+  "teams": [],
+  "matches": []
+}
+
+<> 2022-05-20T194621.308.html
+
+###
+
+POST http://localhost:5000/competition/
+Content-Type: application/json
+
+{
+  "name": "Juegos del hambre",
+  "category": "Senior",
+  "sport": "Football",
+  "teams": [],
+  "matches": [16,17]
+}
+
+<> 2022-05-20T194612.500.json
+
+###
+
+POST http://localhost:5000/match/
+Authorization: Basic eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VybmFtZSI6InFhIiwiZXhwIjoxNjUzMDc0NDU0fQ.rX9wfoc-0DVd4Hijl1cNswY14qeEOPb7WbAgL7BdZag loquesea
+Content-Type: application/json
+
+{
+  "date": "2022-06-05",
+  "price": 200.0,
+  "local_id": 7,
+  "visitor_id": 9,
+  "total_available_tickets": 100
+}
+
+<> 2022-05-20T194551.500.json
+
+###
+
+POST http://localhost:5000/match/
+Authorization: Basic eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VybmFtZSI6InFhIiwiZXhwIjoxNjUzMDc0NDU0fQ.rX9wfoc-0DVd4Hijl1cNswY14qeEOPb7WbAgL7BdZag loquesea
+Content-Type: application/json
+
+{
+  "date": "2022-06-05",
+  "price": 100.0,
+  "local_id": 7,
+  "visitor_id": 9,
+  "total_available_tickets": 100
+}
+
+<> 2022-05-20T194545.201.json
+
+###
+
+POST http://localhost:5000/match/
+Authorization: Basic eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VybmFtZSI6InFhIiwiZXhwIjoxNjUzMDc0NDU0fQ.rX9wfoc-0DVd4Hijl1cNswY14qeEOPb7WbAgL7BdZag loquesea
+Content-Type: application/json
+
+{
+  "date": "2022-06-05",
+  "price": 100.0,
+  "local_id": 8,
+  "visitor_id": 9,
+  "total_available_tickets": 100
+}
+
+<> 2022-05-20T194538.500.json
+
+###
+
+POST http://localhost:5000/match/
+Authorization: Basic eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VybmFtZSI6InFhIiwiZXhwIjoxNjUzMDc0NDU0fQ.rX9wfoc-0DVd4Hijl1cNswY14qeEOPb7WbAgL7BdZag loquesea
+Content-Type: application/json
+
+{
+  "date": "2022-06-05",
+  "price": 500.0,
+  "local_id": 8,
+  "visitor_id": 9,
+  "total_available_tickets": 100
+}
+
+<> 2022-05-20T194531.201.json
+
+###
+
+POST http://localhost:5000/match/
+Authorization: Basic eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VybmFtZSI6InFhIiwiZXhwIjoxNjUzMDc0NDU0fQ.rX9wfoc-0DVd4Hijl1cNswY14qeEOPb7WbAgL7BdZag loquesea
+Content-Type: application/json
+
+{
+  "date": "2022-06-05",
+  "price": 500.0,
+  "local_id": 4,
+  "visitor_id": 5,
+  "total_available_tickets": 100
+}
+
+<> 2022-05-20T194519.500.json
+
+###
+
+POST http://localhost:5000/match/
+Authorization: Basic eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VybmFtZSI6InFhIiwiZXhwIjoxNjUzMDc0NDU0fQ.rX9wfoc-0DVd4Hijl1cNswY14qeEOPb7WbAgL7BdZag loquesea
+Content-Type: application/json
+
+{
+  "date": "2022-06-05",
+  "price": 500.0,
+  "local_id": 4,
+  "visitor_id": 5,
+  "total_available_tickets": 100,
+}
+
+<> 2022-05-20T194513.400.json
+
+###
+
+POST http://localhost:5000/match/
+Authorization: Basic eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VybmFtZSI6InFhIiwiZXhwIjoxNjUzMDc0NDU0fQ.rX9wfoc-0DVd4Hijl1cNswY14qeEOPb7WbAgL7BdZag loquesea
+Content-Type: application/json
+
+{
+  "date": "2022-06-05",
+  "price": 500.0,
+  "local_id": 4,
+  "visitor_id": 5,
+  "total_available_tickets": 100,
+  "competition_id": 1
+}
+
+<> 2022-05-20T194440.500.json
+
+###
+
+POST http://localhost:5000/match/
+Authorization: Basic eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VybmFtZSI6InFhIiwiZXhwIjoxNjUzMDc0NDU0fQ.rX9wfoc-0DVd4Hijl1cNswY14qeEOPb7WbAgL7BdZag loquesea
+Content-Type: application/json
+{:
+  "date": "2022-06-05",
+  "price": 500.0,
+  "local_id": 4,
+  "visitor_id": 5,
+  "total_available_tickets": 100,
+  "competition_id": 1
+}:
+
+<> 2022-05-20T194427.400.json
+
+###
+
+POST http://localhost:5000/match/
+Content-Type: application/json
+
+{
+  "date": "2022-06-05",
+  "price": 500.0,
+  "local_id": 4,
+  "visitor_id": 5,
+  "total_available_tickets": 100,
+  "competition_id": 1
+}
+
+<> 2022-05-20T194313.401.html
+
+###
+
+POST http://localhost:5000/competition/
+Content-Type: application/json
+
+{
+  "name": "Juegos del hambre",
+  "category": "Senior",
+  "sport": "Football",
+  "teams": [10,11],
+  "matches": [10,11]
+}
+
+<> 2022-05-20T194307.500.json
+
+###
+
+POST http://localhost:5000/competition/
+Content-Type: application/json
+
+{
+  "name": "Juegos del hambre",
+  "category": "Senior",
+  "sport": "Football",
+  "teams": [10,11],
+  "matches": [8]
+}
+
+<> 2022-05-20T194300.500.json
+
+###
+
+POST http://localhost:5000/competition/
+Content-Type: application/json
+
+{
+  "name": "Juegos del hambre",
+  "category": "Senior",
+  "sport": "Football",
+  "teams": [8,9],
+  "matches": [8]
+}
+
+<> 2022-05-20T194251.500.json
+
+###
+
+POST http://localhost:5000/competition/
+Content-Type: application/json
+
+{
+  "name": "Juegos del hambre",
+  "category": "Senior",
+  "sport": "Football",
+  "teams": [1,2],
+  "matches": [1]
+}
+
+<> 2022-05-20T194239.500.json
+
+###
+
+POST http://localhost:5000/team/
+Content-Type: application/json
+
+{
+  "name": "Espuñatinos de cuerpodeforminus",
+  "country": "Peru"
+}
+
+<> 2022-05-20T162201.500.json
+
+###
+
+POST http://localhost:5000/team/
+Content-Type: application/json
+
+{
+  "name": "Espuñatinos de cuerpodeforminus",
+  "country": "Peru"
+}
+
+<> 2022-05-20T154754.201.json
+
+###
+
+POST http://localhost:5000/team/
+Content-Type: application/json
+
+{
+  "name": "Dildos de peru",
+  "country": "Peru"
+}
+
+<> 2022-05-20T154743.201.json
+
+###
+
+POST http://localhost:5000/team/
+Content-Type: application/json
+
+{
+  "name": "Malaquito de memfis",
+  "country": "Peru"
+}
+
+<> 2022-05-20T154735.201.json
+
+###
+
+POST http://localhost:5000/competition/1/team/
+Content-Type: application/json
+
+{
+"name": "Malaquito de memfis",
+  "country": "Peru"
+}
+
+<> 2022-05-20T154710.404.json
+
+###
+
+POST http://localhost:5000/match/
+Content-Type: application/json
+
+{
+  "date": "2022-06-05",
+  "price": 500.0,
+  "local_id": 4,
+  "visitor_id": 5,
+  "total_available_tickets": 100,
+  "competition_id": 1
+}
+
+<> 2022-05-15T223024.201.json
+
+###
+
+POST http://localhost:5000/match/
+Content-Type: application/json
+
+{
+  "date": "2022-06-05",
+  "price": 500.0,
+  "local_id": 8,
+  "visitor_id": 6,
+  "total_available_tickets": 100,
+  "competition_id": 1
+}
+
+<> 2022-05-15T223011.500.json
+
+###
+
+POST http://localhost:5000/match/
+Content-Type: application/json
+
+{
+  "date": "2022-06-05",
+  "price": 500.0,
+  "local_id": 8,
+  "visitor_id": 6,
+  "total_available_tickets": 100,
+  "competition_id": 1
+}
+
+<> 2022-05-15T223006.500.json
+
+###
+
+PUT http://localhost:5000/match/4/
+Content-Type: application/json
+
+{
+  "total_available_tickets": 2
+}
+
+<> 2022-05-15T185452.201.json
+
+###
+
+PUT http://localhost:5000/match/4
+Content-Type: application/json
+
+{
+  "total_available_tickets": 2
+}
+
+<> 2022-05-15T185448.308.html
+
+###
+
+PUT http://localhost:5000/match/4/
+Content-Type: application/json
+
+{
+  "total_available_tickets": 1
+}
+
+<> 2022-05-15T185419.201.json
+
+###
+
+PUT http://localhost:5000/match/4/
+Content-Type: application/json
+{:
+  "total_available_tickets": 1
+}:
+
+<> 2022-05-15T185338.400.json
+
+###
+
+PUT http://localhost:5000/match/4/
+Content-Type: application/json
+{:
+  "total_available_tickets": 1
+}:
+
+<> 2022-05-15T185239.400.json
+
+###
+
+PUT http://localhost:5000/match/4/
+Content-Type: application/json
+{:
+  "total_available_tickets": 1
+}:
+
+<> 2022-05-15T185149.400.json
+
+###
+
+PUT http://localhost:5000/match/4
+Content-Type: application/json
+{:
+  "total_available_tickets": 1
+
+}
+
+<> 2022-05-15T185037.400.json
+
+###
+
+PUT http://localhost:5000/match/4
+Content-Type: application/json
+{:
+  "total_available_tickets": 1
+
+}
+
+<> 2022-05-15T184958.308.html
+
+###
+
+PUT http://localhost:5000/match/4
+Content-Type: application/json
+{:
+  "total_available_tickets": 1
+
+}
+
+<> 2022-05-15T184932.308.html
+
+###
+
+PUT http://localhost:5000/match/4
+Content-Type: application/json
+
+{
+  "total_available_tickets": 1
+
+}
+
+<> 2022-05-15T184859.308.html
+
+###
+
+PUT http://localhost:5000/match/4
+Content-Type: application/json
+
+{
+  "total_available_tickets": 1
+
+}
+
+<> 2022-05-15T184754.308.html
+
+###
+
+PUT http://localhost:5000/match/4
+Content-Type: application/json
+
+{
+  "total_available_tickets": 1
+
+}
+
+<> 2022-05-15T184743.308.html
+
+###
+
+PUT http://localhost:5000/match/4
+Content-Type: application/json
+
+{
+  "total_available_tickets": 1
+
+}
+
+<> 2022-05-15T184700.308.html
+
+###
+
+GET http://localhost:5000/matches/
+Accept: application/json
+
+<> 2022-05-15T184611.200.json
+
+###
+
+POST http://localhost:5000/order/ferran/
+Authorization: Basic eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VybmFtZSI6ImZlcnJhbiIsImV4cCI6MTY1MjQzNzc0M30.b-QZpvHCo2AiabGP36AO9hV7_BGMwEXrYc4MF-MGoFs loquesea
+Content-Type: application/json
+
+{
+  "match_id": 4,
+  "tickets_bought": 1
+
+}
+
+<> 2022-05-15T181820.401.html
+
+###
+
+POST http://localhost:5000/match/
+Content-Type: application/json
+
+{
+  "date": "2022-06-05",
+  "price": 5.0,
+  "local_id": 8,
+  "visitor_id": 6,
+  "total_available_tickets": 1,
+  "competition_id": 1
+}
+
+<> 2022-05-15T174338.201.json
+
+###
+
+POST http://localhost:5000/match/
+Content-Type: application/json
+
+{
+  "date": "2022-06-05",
+  "price": 5.0,
+  "local_id": 8,
+  "visitor_id": 5,
+  "total_available_tickets": 1,
+  "competition_id": 1
+}
+
+<> 2022-05-15T174332.201.json
+
+###
+
+GET http://localhost:5000/match/8
+Accept: application/json
+
+<> 2022-05-15T174302.200.json
+
+###
+
+GET http://localhost:5000/matches/
+Accept: application/json
+
+<> 2022-05-15T174218.200.json
+
+###
+
+POST http://localhost:5000/match/
+Content-Type: application/json
+
+{
+  "date": "2022-07-05",
+  "price": 5.0,
+  "local_id": 8,
+  "visitor_id": 5,
+  "total_available_tickets": 5,
+  "competition_id": 1
+}
+
+<> 2022-05-15T174210.201.json
+
+###
+
+POST http://localhost:5000/match/
+Content-Type: application/json
+
+{
+  "date": "2022-07-05",
+  "price": 20.0,
+  "local_id": 7,
+  "visitor_id": 8,
+  "total_available_tickets": 10,
+  "competition_id": 1
+}
+
+<> 2022-05-15T174154.201.json
+
+###
+
+POST http://localhost:5000/match/
+Content-Type: application/json
+
+{
+  "date": "2022-07-05",
+  "price": 20.0,
+  "local_id": 6,
+  "visitor_id": 7,
+  "total_available_tickets": 500,
+  "competition_id": 1
+}
+
+<> 2022-05-15T174145.201.json
+
+###
+
+POST http://localhost:5000/match/
+Content-Type: application/json
+
+{
+  "date": "2022-07-05",
+  "price": 0.99,
+  "local_id": 5,
+  "visitor_id": 6,
+  "total_available_tickets": 5,
+  "competition_id": 1
+}
+
+<> 2022-05-15T174127.201.json
+
+###
+
+POST http://localhost:5000/team/
+Content-Type: application/json
+
+{
+  "name": "equip8",
+  "country": "Peru"
+}
+
+<> 2022-05-15T174113.201.json
+
+###
+
+POST http://localhost:5000/team/
+Content-Type: application/json
+
+{
+  "name": "equip7",
+  "country": "Peru"
+}
+
+<> 2022-05-15T174110.201.json
+
+###
+
+POST http://localhost:5000/team/
+Content-Type: application/json
+
+{
+  "name": "equip6",
+  "country": "Peru"
+}
+
+<> 2022-05-15T174108.201.json
+
+###
+

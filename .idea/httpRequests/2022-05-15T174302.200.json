@@ -1,0 +1,18 @@
+{
+  "id": 8,
+  "date": "2022-07-05T00:00:00",
+  "price": 5.0,
+  "local": {
+    "id": 8,
+    "name": "equip8",
+    "country": "Peru"
+  },
+  "visitor": {
+    "id": 5,
+    "name": "equip5",
+    "country": "Peru"
+  },
+  "competition": "Competi6",
+  "total_available_tickets": 5,
+  "competition_id": 1
+}
